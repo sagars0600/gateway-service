@@ -1,0 +1,48 @@
+server:
+  port: 8000
+##
+#
+spring:
+  application:
+    name: gateway-service
+##  cloud:
+##    gateway:
+##      routes:
+##        - id: USER-SERVICE
+##          uri: http://host.docker.internal:3005
+##          predicates:
+##            - Path=/users/**
+##
+##        - id: COMMENT-SERVICE
+##          uri: http://host.docker.internal:3015
+##          predicates:
+##            - Path=/posts/{postId}/comments/**
+##
+##        - id: POST-SERVICE
+##          uri: http://host.docker.internal:3010
+##          predicates:
+##            - Path=/posts/**
+##
+##
+##
+##        - id: LIKE-SERVICE
+##          uri: http://host.docker.internal:3020
+##          predicates:
+##            - Path=/postsOrComments/{postOrCommentId}/**
+##
+##        - id: authentication-authorization-service
+##          uri: http://host.docker.internal:3000
+##          predicates:
+##            - Path=/auth/**
+#eureka:
+#  client:
+#    fetch-registry: true
+#    register-with-eureka: true
+#    service-url:
+#      defaultZone: ${eureka_url:http://localhost:8761/eureka}
+##
+##
+##
+##
+##
+##
